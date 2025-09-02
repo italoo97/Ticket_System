@@ -15,9 +15,8 @@ intents.voice_states = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-# Configuração do Flask
 api_app = Flask(__name__)
-CORS(api_app)  # Habilita CORS para todas as rotas
+CORS(api_app) 
 DB_PATH = "tickets.duckdb"
 
 @api_app.route("/api/ticket/<token>")
@@ -73,4 +72,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\n🛑 Bot encerrado pelo usuário")
     except Exception as e:
+
         print(f"\n❌ Erro fatal: {e}")
