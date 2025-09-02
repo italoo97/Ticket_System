@@ -84,7 +84,7 @@ Botoes:
  
 Gerenciamento apos o fechamento:
    - No LOG_TICKET será enviado o identificador e o token do ticket, o identificador e para achar ele futuramente no servidor e o token para criar a rota do transcript na base de dados, assim como quem fechou, quem abriu e a hora e data que foi aberto, assim como o transcript original.
-  - Para ver o ticket em um site foi utilizado a hospedagem da discloud, e a rota para acessar o ticket ficou "/api/ticket/<token>" assim como a rota para conseguir o transcript "SELECT html_content FROM ticket_html WHERE token = ?"
+  - Para ver o ticket em um site foi utilizado a hospedagem da discloud, e a rota para acessar o ticket ficou "/api/ticket/\<\token\>\" assim como a rota para conseguir o transcript "SELECT html_content FROM ticket_html WHERE token = ?"
 <img width="1298" height="690" alt="image" src="https://github.com/user-attachments/assets/24d75814-782a-4c94-bc6a-f2412797bfe8" />
 
 "https://maliticket.discloud.app/api/ticket/0fea3b83-7922-4854-97a8-bbb2558e265b"
