@@ -14,13 +14,20 @@ Tecnologias/Bibliotecas Utilizadas:
   - Discord / Discord.ext / Discord.ui
 
 Arquivo Config:
-DB_TICKETS = "tickets.duckdb" (Nome do Banco de Dados) \n
+DB_TICKETS = "tickets.duckdb" (Nome do Banco de Dados)
+
 ARQUIVO_JSON = "tickets.json" (Nome do json para salvar o ID da mensagem para abrir os tickets e manter a persistencia)
+
 ID_DEVOLUCAO =  int (Canal aonde Irá uma Embed com informações para realizar devolução de itens)
+
 CARGOS_SLASH = [int] (Quem irá poder aceitrar as devoluções)
+
 CANAL_TICKET = int (Canal de Solicitação de Abertura de um Ticket)
+
 LOG_TICKET = int (Canal que irá ser enviado a log do ticket so ser fechado)
+
 SUPORTE_ID = int (Categoria de onde o Ticket Ficará aberto)
+
 
 Fluxo de Funcionamento:
 
