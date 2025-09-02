@@ -87,7 +87,7 @@ Gerenciamento apos o fechamento:
   - Para ver o ticket em um site foi utilizado a hospedagem da discloud, e a rota para acessar o ticket ficou "/api/ticket/\<token\>\" assim como a rota para conseguir o transcript "SELECT html_content FROM ticket_html WHERE token = ?"
 <img width="1298" height="690" alt="image" src="https://github.com/user-attachments/assets/24d75814-782a-4c94-bc6a-f2412797bfe8" />
 
-"https://maliticket.discloud.app/api/ticket/0fea3b83-7922-4854-97a8-bbb2558e265b"
+"[https://maliticket.discloud.app/api/ticket/0fea3b83-7922-4854-97a8-bbb2558e265b](https://maliticket.discloud.app/api/ticket/d41f6a56-bb67-4660-9898-78486e429b80)"
 
 O Arquivo main.py ficou com 111 linhas por conta das logs, ja o cogs\tickets.py ficou com 1686 linhas.
 
