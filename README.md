@@ -42,27 +42,35 @@ Botoes:
   - Poke: É enviado uma mensagem no PV de quem criou o ticket com uma mensagem de saudação e informando quem chamou a atenção dele e em qual canal está sendo solicitado uma resposta do mesmo, junto com um atalho e uma marcação do canal para facilitar o acesso ao ticket.
 <img width="679" height="105" alt="image" src="https://github.com/user-attachments/assets/f94533b5-4bcf-48b0-a31c-4881e24be509" />
 <img width="452" height="289" alt="image" src="https://github.com/user-attachments/assets/b84ff507-8d5f-4023-ac03-28ba9d5868ce" />
+  
   - Ações Ticket: Ele envia uma mensagem efemera com uma lista com as opções de renomear ticket e transferir de categoria.
 <img width="567" height="166" alt="image" src="https://github.com/user-attachments/assets/d2852584-8db7-4df0-86a1-a66c597408a8" />
 <img width="509" height="206" alt="image" src="https://github.com/user-attachments/assets/91b23bdf-e924-4bf0-b96b-7151ba279258" />
+  
   - Devolução: Abre um Formulario para preencher o ID de quem receberá os itens de volta e os itens a seren devolvidos, apos envio será enviado uma enbed no canal ID_DEVOLUCAO com os botão de aprovar ou negar, ao ter a interação os botão são excluidos e a embed é atualizada com o nome de quem aprovou ou negou, essas informações são salvas na base de dados para manter a persistencia.
 <img width="493" height="467" alt="image" src="https://github.com/user-attachments/assets/539b53aa-04a4-45f8-9e80-4039f0f418a4" />
 <img width="435" height="105" alt="image" src="https://github.com/user-attachments/assets/3de8572e-ec5b-4f7a-9eaf-22e31f6f9cff" />
 <img width="377" height="375" alt="image" src="https://github.com/user-attachments/assets/0f8488b7-2469-4570-80f6-a6b7b12ca4e9" />
 <img width="373" height="524" alt="image" src="https://github.com/user-attachments/assets/ab363476-e762-4343-b6c4-e0f4ee2e6ed2" />
+  
   - Adicionar Membro: Caso tenha a necessidade de adicionar outro jogador e só pesquisar o nome dele do discord no canal chat-geral por exemplo e apertar o botão que ele manda a instrução para marcar a pessoa e enviar a mensagem, se em 15 segundos ninguem for marcado ele desativa o monitoramento, caso voce mande a mensagem com quem voce quer adicionar ele informa que o usuario marcado foi adicionado.
 <img width="638" height="226" alt="image" src="https://github.com/user-attachments/assets/c08def08-3dc7-45f5-9fdb-6e4f6027d13f" />
 <img width="630" height="219" alt="image" src="https://github.com/user-attachments/assets/0a17aae3-69c7-48f4-8b22-5bc63b7a2ace" />
+  
   - Remover Membro: Igual o Adicionar porem so funciona com quem esta no ticket e não tem cargo para visualizar
 <img width="632" height="220" alt="image" src="https://github.com/user-attachments/assets/88f64c69-7f30-462c-9831-f9e23d439ac6" />
+  
   - Adicionar Observação: A proxima mensagem que for digitada no chat será salva como uma observação no banco de dados
 <img width="543" height="105" alt="image" src="https://github.com/user-attachments/assets/178eb5ff-d272-4fb1-85ee-bf123c16b65e" />
+  
   - Fechar ticket: Somente quem tem um cargo em CARGOS_SLASH pode fechar o ticket, ao clicar ele informa no canal que o ticket foi fechado e em 10 Segundos o canal e excluido, alem disso ele manda uma embed no privado de quem abriu o ticket e uma no LOG_TICKET.
 <img width="393" height="66" alt="image" src="https://github.com/user-attachments/assets/71a656f7-2024-4574-ac67-a444123098b0" />
 <img width="354" height="269" alt="image" src="https://github.com/user-attachments/assets/cc364f20-79f4-4a3c-a999-f194aee5436b" />
 <img width="650" height="408" alt="image" src="https://github.com/user-attachments/assets/70dd5987-6de3-42b1-a394-5bbcc30d9c97" />
+  
   - Assumir Ticket: Quem irá resolver o ticket assume para ele o ticket
 <img width="786" height="103" alt="image" src="https://github.com/user-attachments/assets/953bfcb9-431b-4912-8663-a73273fd850d" />
+  
   - Chamada de Voz: Caso seja necessario conversar com alguem sobre o ticket ele cria um canal de voz que se ele ficar 5 minutos sem ninguem ele exclui automaticamente.
 <img width="547" height="111" alt="image" src="https://github.com/user-attachments/assets/3301824f-0cc4-4aac-9bc5-9a4c47315d92" />
 <img width="221" height="47" alt="image" src="https://github.com/user-attachments/assets/be0d34a5-3871-4f1c-821c-a2267973c6e8" />
