@@ -8,10 +8,6 @@ import duckdb
 import threading
 
 intents = discord.Intents.all()
-intents.message_content = True
-intents.guilds = True
-intents.members = True
-intents.voice_states = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
@@ -74,3 +70,4 @@ if __name__ == "__main__":
     except Exception as e:
 
         print(f"\n❌ Erro fatal: {e}")
+
